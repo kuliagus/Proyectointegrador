@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/styles.css">
+    <title>In-100-sar</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" type="image/png" href="./assets/favicon-16x16.png">
+</head>
+
+<body>
+
+    <header class="header">
+        <img src="./assets/logo.png" alt="logo">
+
+        <nav class="navbar">
+            <label for="toggle-menu"><i class="fas fa-bars"></i></label>
+            <input type="checkbox" id="toggle-menu">
+            <ul class="navbar-list">
+                <li><a class="navbar-link" href="#hero">INICIO</a></li>
+                <li><a class="navbar-link" href="#about">INFO</a></li>
+                <li><a class="navbar-link" href="#contact">CONTACTO</a></li>
+                <li><a class="navbar-link" href="./register.html" target="_blank">Loguearme</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="hero-presentation">
+                <h1>¡Hola, <span>Somos Inciensar!</span></h1>
+                <p>Los inciensos funcionan para equilibrar las emociones, ya que han sido utilizados para transformar la
+                    atmósfera en un ambiente de meditación y relajación.
+                    El sentido del olfato es sensible a todos los aromas que están en el ambiente, desde el olor de su
+                    piel hasta el aroma de las flores, la comida o de cualquier objeto que se encuentre a su alrededor.
+                </p>
+                <div class="button-container">
+                    <a href="#" class="primary-btn">Llamame</a>
+                    <a href="#" class="alt-btn">Ver más</a>
+                </div>
+            </div>
+            <img src="./assets/quemando.jpg" alt="quemando" class="hero-img">
+        </section>
+
+        <section id="about">
+            <p><span>El incienso está disponible en numerosas presentaciones y grados de preparación. Sin embargo,
+                    generalmente se clasifica en dos tipos, dependiendo del uso:
+                    incienso para quema directa e incienso para quema indirecta.</span>
+                <span>En general, el incienso grande y basto tiende a arder más tiempo que el más procesado, y el
+                    incienso de quema directa exige menos preparación para su uso pero requiere un mayor procesado
+                    previo.</span>
+            </p>
+        </section>
+
+        <section id="info">
+            <h2>Distintas experiencias</h2>
+
+            <div class="info-card-container">
+                <div class="info-card">
+                    <img src="./assets/calavera.jpg" alt="producto1">
+                    <h3>Cascada</h3>
+                    <p>Visualizá el descenso del humo denso</p>
+                </div>
+
+                <div class="info-card">
+                    <img src="./assets/horno.jpg" alt="producto2">
+                    <h3>Horno</h3>
+                    <p>Quema en miniatura simpatica</p>
+                </div>
+
+                <div class="info-card">
+                    <img src="./assets/atado.jpg" alt="producto3">
+                    <h3>Sahumo</h3>
+                    <p>Antiguo ritual con plantas medicinales</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="bottom-card">
+                <div>
+                    <h2>Encarganos tu pedido</h2>
+                    <form action="form">
+                        <div>
+                            <label for="nombre">Nombre:</label>
+                            <input class="register" type="text" id="nombre" required placeholder="Ingresa tu nombre" />
+                        </div>
+
+                        <div>
+                            <label for="apellido">Apellido:</label>
+                            <input class="register" type="text" id="apellido" required
+                                placeholder="Ingresa tu apellido" />
+                        </div>
+
+                        <div>
+                            <label for="Correo">Dirección:</label>
+                            <input class="register" type="text" id="Calle" required placeholder="Calle 123" />
+                        </div>
+
+                        <div>
+                            <label for="informacion">Deseo recibir información sobre nuevas promociones.</label>
+                            <input class="register" type="checkbox" id="informacion">
+                        </div>
+
+                        <div>
+                            <label for="informacion">Declaro que leí los terminos y condiciones.</label>
+                            <input class="register" type="checkbox" id="informacion">
+                        </div>
+
+                        <div>
+                            <input class="boton" type="submit" value="Pedir">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <a href="https://www.google.com/maps/place/Regi%C3%B3n+de+Kant%C5%8D,+Tokio,+Jap%C3%B3n/@36.0235208,138.5166687,8z/data=!3m1!4b1!4m5!3m4!1s0x6018b60012220e6f:0x69d63b267e399f89!8m2!3d36.4598667!4d139.6911374"
+        target="_blank" class="primer-btn">Ubicación</a>
+    <a href="https://www.instagram.com/sagradamadre.cordoba/?hl=es" target="_blank"
+        class="segundo-btn">Equipo</a>
+        <img src="./assets/vivero.jpg" alt="vivero" class="bottom-img" />
+    </main>
+
+    <footer>
+        <div class="footer">
+            <p>&copy;Vivero 2022</p>
+            <p>Teléfono +12 34 5678 9101</p>
+        </div>
+    </footer>
+</body>
+
+</html>
